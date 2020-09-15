@@ -1,0 +1,33 @@
+body {
+  background-color: #333333;
+  color: white;
+}
+
+header {
+  background: white;
+  color: #333333;
+  width: 100px;
+}
+
+main {
+  background: white;
+  color: #333333;
+  width: 300px;
+  max-height: 500px;
+  padding: 15px;
+}
+
+main > h2 {
+  text-align: center;
+}
+
+footer {
+  background: coral;
+  color: #333333;
+}
+
+footer > p {
+  font-size: 12px;
+  text-align: center;
+}
+
