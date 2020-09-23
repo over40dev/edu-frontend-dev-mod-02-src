@@ -1,0 +1,30 @@
+/* box-model border */
+/* border - order doesn't matter */
+header {
+  width: 100px;
+  
+  /* border-color: yellow;
+  border-width: 5px;
+  border-style: solid; */
+
+  /* you can use shorthand
+     then override certain styles 
+     such as color
+  */
+  border: 10px solid yellow;
+  border-bottom-color: red;
+  border-left-color: orange;
+  border-left-style: dashed;
+
+  padding: 10px;
+  margin: 20px;
+}
+
+main > h2 {
+  text-align: center;
+  padding: 20px;
+  margin: 10px;
+  border: 5px solid red;
+  border-bottom-color: yellow;
+  border-left-style: dashed;
+}
