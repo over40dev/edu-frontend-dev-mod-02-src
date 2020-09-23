@@ -1,0 +1,28 @@
+/* box-model margin (outside box) */
+/* margin is empty space */
+body {
+  background: #333;
+  color: white;
+}
+
+header {
+  color: #333;
+  background: white;
+  width: 100px;
+  margin-top: 100px;
+  margin-left: 25px;
+}
+
+main > h2 {
+  background-color: coral;
+  color: white;
+  /* top left|right bottom*/
+  margin: 50px 10px 25px;
+  /* top|bottom left|right */
+  /* margin: 50px 10px; */
+  /* top right bottom left (clockwise) */
+  /* margin: 50px 10px 50px 10px; */
+  /* margin set individually */
+  /* margin-top: 50px;
+  margin-left: 50px; */
+}
