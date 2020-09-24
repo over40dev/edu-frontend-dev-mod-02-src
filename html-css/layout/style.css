@@ -20,6 +20,7 @@ header {
 }
 
 main {
+  margin: 0 auto;
   background: #1487C4;
   width: 600px;
   padding: 25px;
