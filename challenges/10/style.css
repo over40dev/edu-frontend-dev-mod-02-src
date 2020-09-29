@@ -1,0 +1,31 @@
+/* ==========================
+	Write your solution here!
+   ========================== */
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.title {
+  text-align: center;
+  color: #d17d24;
+  font-size: 60px;
+}
+
+.main-section {
+  text-align: center;
+  margin: 100px;
+}
+
+.sub-title {
+  color: #4985de;
+  font-size: 40px;
+}
+
+p {
+  font-size: 20px;
+}
+
+.normal-section {
+  margin: 40px;
+}
