@@ -1,0 +1,22 @@
+/* DON'T TOUCH THIS! */
+p {
+  text-align: center;
+}
+/* DON'T TOUCH THIS! */
+
+/* ==========================
+	Write your solution here!
+	 ========================== */
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 30px;
+}
+strong {
+  font-size: 35px;
+  color: #eb8315;
+}
+
+em {
+  color: #1785eb;
+}
